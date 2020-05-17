@@ -1,0 +1,45 @@
+/* 
+
+Project Name: Padua
+Client: One Month
+Author: Dario Milani | https://twitter.com/runner855 | 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/padova33.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: right;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background:#93B68F;
+	width: 424px;
+	color: white;
+	padding: 15px;
+}
+
+h1 {
+	font-size : 80px;
+}
+
+h2 {
+	background: #EAE7D2;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a{
+	color: #75c1f6;
+	text-decoration: none;
+}
+
+.frame-border {border:1px;border-color:#93B68F;padding:1px;border-style:solid;
+}
